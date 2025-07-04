@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <script>
+    function add(){
+        var n1,n2,sum;
+        n1=parseInt(document.getElementById("txtFirstNumber").value);
+        n2=parseInt(document.getElementById("txtSecondNumber").value);
+        sum=n1+n2;
+        document.getElementById("txtAnswer").value=sum;
+    }
+    function clean(){
+        let x=document.getElementById("txtFirstNumber").value="";
+        let y=document.getElementById("txtSecondNumber").value="";
+        console.log(x);
+        console.log(y);
+    }
+    function sub(){
+        var n1,n2,sub;
+        n1=parseInt(document.getElementById("txtFirstNumber").value);
+        n2=parseInt(document.getElementById("txtSecondNumber").value);
+         sub=n1-n2;
+        document.getElementById("txtAnswer").value=sub;
+    }
+    function mul(){
+        var n1,n2,mull;
+        n1=parseInt(document.getElementById("txtFirstNumber").value);
+        n2=parseInt(document.getElementById("txtSecondNumber").value);
+         mull=n1*n2;
+        document.getElementById("txtAnswer").value=mull;
+    }
+    function division(){
+         var n1,n2,dd;
+        n1=parseInt(document.getElementById("txtFirstNumber").value);
+        n2=parseInt(document.getElementById("txtSecondNumber").value);
+         dd=n1/n2;
+        document.getElementById("txtAnswer").value=dd;
+    }
+   
+
+   </script>
+</head>
+<body>
+   <p>FirstNumber:<input id="txtFirstNumber"></p>
+   <p>SecondNumber:<input id="txtSecondNumber"></p>
+   <button onmouseover="add()">addthem</button>
+   <p>Sum=<input id="txtAnswer"></p>
+   <button onclick="clean()">Reset</button>
+   <button onclick="sub()">sub</button>
+    <button onclick="mul">mul</button>
+     <button onclick="division()">divsion</button>
+
+</body>
+</html>

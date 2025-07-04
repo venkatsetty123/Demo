@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        nav{
+            background-color:#1d1a1a;
+            margin: 0px;
+            padding: 0px;
+            padding: 20px;
+        }
+        .navelement{
+            display: flex;
+            justify-content: space-around;
+            flex-direction: row;
+            gap: 20px;
+        }
+        .navelement h4{
+            color: red;
+            border:1px solid white;
+            border-radius: 10px;
+            padding: 5px;
+        }
+        .dropdown{
+            display: inline-block;
+            position: relative;
+        }
+       .dropdown-options{
+        display: none;
+        position: absolute;
+        overflow: hidden;
+    }
+    .dropdown:hover.dropdown-options{
+        display: block;
+    }
+
+    </style>
+</head>
+<body>
+    <nav>
+        <div>
+            <div class="navelement">
+                <h4>Home</h4>
+                <h4>sem1</h4>
+                <h4>sem2</h4>
+                <h4>sem3</h4>
+                <h4>sem4</h4>
+               
+                
+            </div>
+
+            <div>
+
+            </div>
+
+        </div>
+    </nav>
+    <div class="dropdown">
+       <button>Profile</button>
+       <div class="dropdown-options">
+       <a href="#">DAshboard</a>
+       <a href="#">profile</a>
+       <a href="#">logout</a>
+    </div>
+    </div>
+  
+    
+</body>
+</html>
