@@ -1,0 +1,49 @@
+*{
+    background-color: rgb(0, 255, 4);
+}
+ ul{
+            list-style-type:none ;
+            margin: 0px;
+            padding: 0px;
+            overflow:hidden;
+           background-color: #333;
+           bottom: 0;
+           width: 100%;
+           position:fixed;
+          
+           
+        }
+        li{
+            float: left;
+        }
+        li a{
+            display: block;
+            padding: 8px;
+            text-decoration: none;
+            text-align: center;
+            color: beige;
+            
+            font-size: 30px;
+        }
+        li a:hover{
+            background-color: rgb(255,0,0);
+        }
+        .active{
+            background-color: #04AA6D;
+        }
+        li{
+            float: left;
+            border-right:5px solid #bbbbbbd8 ;
+        }
+        li:last-child{
+            border-right:none ;
+        }
+        .pp{
+            
+            background-color: aquamarine;
+            margin-left: 200px;
+            margin-right: 600pxpx;
+            
+        }
+
+        
