@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Venkatesh | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- 🔷 Navigation Menu -->
+  <nav class="navbar">
+    <div class="logo">Kalupativenkatesh</div>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#video">Video</a></li>
+      <li><a href="#resume">Resume</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- 🔷 Home Section -->
+  <header class="hero" id="home">
+    <img src="profile.jpg" alt="Venkatesh Photo" class="profile-img"/>
+    <h1>Hi, I'm Venkatesh</h1>
+    <p>MCA Student at Mother Theresa Institute</p>
+  </header>
+
+  <!-- 🔷 About Section -->
+  <section class="section" id="about">
+    <h2 style="color="red">About Me</h2>
+    <p>I am a final-year mca student specializing in computer applications.Passionate about software development,
+web technologices,and problem-solving.Looking forward to starting my career as a software Engineer.
+
+  </p>
+  </section>
+
+  <!-- 🔷 Video Section -->
+  <section class="section" id="video">
+    <h2>Intro Video</h2>
+    <video controls class="intro-video">
+      <source src="intro.mp4" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+  </section>
+
+  <!-- 🔷 Resume Download Section -->
+  <section class="section" id="resume">
+    <h2>My Resume</h2>
+    <a href="resume.pdf" download class="btn">Download Resume</a>
+  </section>
+
+  <!-- 🔷 Contact Section -->
+  <section class="section" id="contact">
+    <h2>Contact Me</h2>
+    <form class="contact-form">
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 Venkatesh | All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
